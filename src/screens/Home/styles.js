@@ -4,10 +4,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
+    top: 40,
   },
   logo: {
     width: 180,
-    height: 200,
+    height: 180,
   },
   formContainer: {
     flexDirection: "row",
@@ -34,7 +35,7 @@ const styles = StyleSheet.create({
   button: {
     height: 47,
     borderRadius: 5,
-    backgroundColor: "#788eec",
+    backgroundColor: "#2B3467",
     width: 80,
     alignItems: "center",
     justifyContent: "center",
@@ -53,11 +54,10 @@ const styles = StyleSheet.create({
     borderBottomColor: "#cccccc",
     borderBottomWidth: 1,
     paddingBottom: 16,
-    // backgroundColor: "yellow",
   },
   entityText: {
     fontSize: 20,
-    color: "#333333",
+    color: "#2B3467",
   },
 });
 
